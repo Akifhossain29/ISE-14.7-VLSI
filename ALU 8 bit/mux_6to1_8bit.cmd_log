@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/cpu/mux_6to1_8bit.xst" -ofn "/home/ise/cpu/mux_6to1_8bit.syr" 

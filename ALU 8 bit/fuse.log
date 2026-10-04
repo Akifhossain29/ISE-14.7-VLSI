@@ -1,0 +1,48 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/cpu/alu_tb_isim_beh.exe -prj /home/ise/cpu/alu_tb_beh.prj work.alu_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/cpu/nand_gate.vhd" into library work
+Parsing VHDL file "/home/ise/cpu/xor_gate.vhd" into library work
+Parsing VHDL file "/home/ise/cpu/or_gate.vhd" into library work
+Parsing VHDL file "/home/ise/cpu/and_gate.vhd" into library work
+Parsing VHDL file "/home/ise/cpu/full_adder.vhd" into library work
+Parsing VHDL file "/home/ise/cpu/not_gate.vhd" into library work
+Parsing VHDL file "/home/ise/cpu/full_adder_8bit.vhd" into library work
+Parsing VHDL file "/home/ise/cpu/xor_8bit.vhd" into library work
+Parsing VHDL file "/home/ise/cpu/or_8bit.vhd" into library work
+Parsing VHDL file "/home/ise/cpu/not_8bit.vhd" into library work
+Parsing VHDL file "/home/ise/cpu/mux_6to1_8bit.vhd" into library work
+Parsing VHDL file "/home/ise/cpu/and_8bit.vhd" into library work
+Parsing VHDL file "/home/ise/cpu/add_sub_8bit.vhd" into library work
+Parsing VHDL file "/home/ise/cpu/alu.vhd" into library work
+Parsing VHDL file "/home/ise/cpu/alu_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 96076 KB
+Fuse CPU Usage: 1300 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture dataflow of entity nand_gate [nand_gate_default]
+Compiling architecture structural of entity and_gate [and_gate_default]
+Compiling architecture structural of entity and_8bit [and_8bit_default]
+Compiling architecture structural of entity or_gate [or_gate_default]
+Compiling architecture structural of entity or_8bit [or_8bit_default]
+Compiling architecture structural of entity xor_gate [xor_gate_default]
+Compiling architecture structural of entity xor_8bit [xor_8bit_default]
+Compiling architecture structural of entity not_gate [not_gate_default]
+Compiling architecture structural of entity not_8bit [not_8bit_default]
+Compiling architecture structural of entity full_adder [full_adder_default]
+Compiling architecture structural of entity full_adder_8bit [full_adder_8bit_default]
+Compiling architecture structural of entity add_sub_8bit [add_sub_8bit_default]
+Compiling architecture behavioral of entity mux_6to1_8bit [mux_6to1_8bit_default]
+Compiling architecture structural of entity alu [alu_default]
+Compiling architecture behavioral of entity alu_tb
+Time Resolution for simulation is 1ps.
+Waiting for 12 sub-compilation(s) to finish...
+Compiled 31 VHDL Units
+Built simulation executable /home/ise/cpu/alu_tb_isim_beh.exe
+Fuse Memory Usage: 397544 KB
+Fuse CPU Usage: 1350 ms
+GCC CPU Usage: 490 ms
