@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/ise/accumulator/accumulator_8bit_tb_isim_beh.exe" -prj "/home/ise/accumulator/accumulator_8bit_tb_beh.prj" "work.accumulator_8bit_tb" "work.glbl" 

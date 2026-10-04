@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/accumulator/accumulator_8bit.xst" -ofn "/home/ise/accumulator/accumulator_8bit.syr" 
