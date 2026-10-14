@@ -1,0 +1,6 @@
+verilog work "program_rom.v"
+verilog work "pc.v"
+verilog work "control_unit.v"
+verilog work "alu.v"
+verilog work "accumulator.v"
+verilog work "cpu.v"
