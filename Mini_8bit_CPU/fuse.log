@@ -1,0 +1,32 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/ise/Mini_8bit_CPU/cpu_tb_isim_beh.exe -prj /home/ise/Mini_8bit_CPU/cpu_tb_beh.prj work.cpu_tb work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/ise/Mini_8bit_CPU/program_rom.v" into library work
+Analyzing Verilog file "/home/ise/Mini_8bit_CPU/pc.v" into library work
+Analyzing Verilog file "/home/ise/Mini_8bit_CPU/control_unit.v" into library work
+Analyzing Verilog file "/home/ise/Mini_8bit_CPU/alu.v" into library work
+Analyzing Verilog file "/home/ise/Mini_8bit_CPU/accumulator.v" into library work
+Analyzing Verilog file "/home/ise/Mini_8bit_CPU/cpu.v" into library work
+Analyzing Verilog file "/home/ise/Mini_8bit_CPU/cpu_tb.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 94916 KB
+Fuse CPU Usage: 1470 ms
+Compiling module pc
+Compiling module program_rom
+Compiling module control_unit
+Compiling module alu
+Compiling module accumulator
+Compiling module cpu
+Compiling module cpu_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 5 sub-compilation(s) to finish...
+Compiled 8 Verilog Units
+Built simulation executable /home/ise/Mini_8bit_CPU/cpu_tb_isim_beh.exe
+Fuse Memory Usage: 390972 KB
+Fuse CPU Usage: 1540 ms
+GCC CPU Usage: 600 ms
