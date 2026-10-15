@@ -1,0 +1,53 @@
+ISim log file
+Running: /home/ise/Mini_8bit_CPU/cpu_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/Mini_8bit_CPU/cpu_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is ise, on host localhost.localdomain.
+INFO:Security:15 - A feature for ISIM was found but is for the wrong hostid.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+Invalid host.
+ The hostid of this system does not match the hostid
+ specified in the license file.
+Feature:       ISIM
+Hostid:        08002768c935
+License path:  /home/ise/.Xilinx/Xilinx.lic:/opt/Xilinx/14.7/ISE_DS/ISE//data/*.lic:/opt/Xilinx/14.7/ISE_DS/ISE//coregen/core_licenses/Xilinx.lic:/opt/Xilinx/14.7/ISE_DS/ISE//coregen/core_licenses/XilinxFree.lic:/opt/Xilinx/14.7/ISE_DS/EDK/data/core_licenses/Xilinx.lic:
+FLEXnet Licensing error:-9,57
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Time=0 | RESET=1 | PC=x | Q=xx | Z=x
+Time=5000 | RESET=1 | PC=0 | Q=00 | Z=1
+PASS: PC=0 Q=00 Z=1
+Time=10000 | RESET=0 | PC=0 | Q=00 | Z=1
+Time=15000 | RESET=0 | PC=1 | Q=ff | Z=0
+PASS: PC=1 Q=ff Z=0
+Time=25000 | RESET=0 | PC=2 | Q=00 | Z=1
+PASS: PC=2 Q=00 Z=1
+Time=35000 | RESET=0 | PC=5 | Q=00 | Z=1
+PASS: PC=5 Q=00 Z=1
+Time=45000 | RESET=0 | PC=6 | Q=11 | Z=0
+PASS: PC=6 Q=11 Z=0
+Time=55000 | RESET=0 | PC=7 | Q=22 | Z=0
+PASS: PC=7 Q=22 Z=0
+Time=65000 | RESET=0 | PC=8 | Q=22 | Z=0
+PASS: PC=8 Q=22 Z=0
+Time=75000 | RESET=0 | PC=9 | Q=44 | Z=0
+PASS: PC=9 Q=44 Z=0
+CPU TESTBENCH FINISHED
+Stopped at time : 80 ns : File "/home/ise/Mini_8bit_CPU/cpu_tb.v" Line 86
+# exit 0
